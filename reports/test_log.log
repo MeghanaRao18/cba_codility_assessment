@@ -1,0 +1,86 @@
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 688133, 'name': 'pet_ejwif', 'photoUrls': [], 'status': 'available', 'category': {'id': 116573, 'name': None}, 'tags': [{'id': 490738, 'name': 'tag1'}, {'id': 707862, 'name': 'tiny'}, {'id': 463437, 'name': 'puppy'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+INFO     config.request_config_manager:test_pet_endpoints.py:75 The pet_id entry added is 688133
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/pet/688133 HTTP/11" 200 None
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 147455, 'name': 'pet_nfthj', 'photoUrls': [], 'status': 'available', 'category': {'id': 610098, 'name': None}, 'tags': [{'id': 505745, 'name': 'tag1'}, {'id': 938915, 'name': 'puppy'}, {'id': 951011, 'name': 'for kids'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 898657, 'name': 'pet_anzbv', 'photoUrls': [], 'status': 'available', 'category': {'id': 478856, 'name': None}, 'tags': [{'id': 940341, 'name': 'tiny'}, {'id': 751713, 'name': 'puppy'}, {'id': 285274, 'name': 'small'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 898657, 'name': 'pet_anzbv', 'photoUrls': [], 'status': 'sold', 'category': {'id': 478856, 'name': None}, 'tags': [{'id': 940341, 'name': 'tiny'}, {'id': 751713, 'name': 'puppy'}, {'id': 285274, 'name': 'small'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "PUT /v2/pet HTTP/11" 200 None
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 765986, 'name': 'pet_rkavq', 'photoUrls': [], 'status': 'available', 'category': {'id': 835878, 'name': None}, 'tags': [{'id': 152014, 'name': 'small'}, {'id': 986004, 'name': 'for kids'}, {'id': 191460, 'name': 'puppy'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/pet/765986 HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/pet/765986 HTTP/11" 404 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/pet/findByStatus?status=available HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/pet/findByStatus?status=invalid HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/pet/-1 HTTP/11" 404 0
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 146256, 'name': 'pet_zkggx', 'photoUrls': [], 'status': 'available', 'category': {'id': 136869, 'name': None}, 'tags': [{'id': 894103, 'name': 'puppy'}, {'id': 644653, 'name': 'tiny'}, {'id': 280698, 'name': 'tag2'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet HTTP/11" 200 None
+INFO     config.request_config_manager:request_config_manager.py:152 http_request_body {'id': 146256, 'name': 'pet_zkggx', 'photoUrls': [], 'status': 'available', 'category': {'id': 136869, 'name': None}, 'tags': [{'id': 894103, 'name': 'puppy'}, {'id': 644653, 'name': 'tiny'}, {'id': 280698, 'name': 'tag2'}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/pet/146256/uploadImage HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/store/order HTTP/11" 200 None
+INFO     config.request_config_manager:test_store_endpoints.py:69 The order entry added is 5
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/store/order/5 HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/store/order HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/store/order HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/store/order/1 HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/store/order/1 HTTP/11" 404 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/store/order/-1 HTTP/11" 404 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+INFO     config.request_config_manager:test_user_endpoints.py:70 The username entry added is pet_aiqwdv
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/pet_aiqwdv HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "PUT /v2/user/pet_uudmom HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/pet_uudmom HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/user/pet_gdxzvj HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/pet_gdxzvj HTTP/11" 404 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/login?username=pet_cjilme&password=1111 HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "DELETE /v2/user/-1 HTTP/11" 404 0
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/login?username=invalid&password=invalid HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "GET /v2/user/logout?username=invalid&password=invalid HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user/createWithList HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user/createWithList HTTP/11" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): petstore.swagger.io:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://petstore.swagger.io:443 "POST /v2/user/createWithList HTTP/11" 200 None
