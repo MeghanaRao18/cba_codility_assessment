@@ -331,9 +331,8 @@ def test_upload_pet_image(add_data,config_manager,generate_data):
     print(f"The pet_id entry added is {add_data.pet_id}")
     # POST UPLOADIMAGE api pet request endpoint is set as "pet"
     config_manager.set_endpoint("pet"+ "/" + str(add_data.pet_id) + "/" + RequestConstants.JSON_UPLOAD_IMAGE)
-    current_dir = os.path.dirname(__file__)
-    #image_path = os.path.abspath(os.path.join(current_dir, "..", "config", "img1.jpg"))
-    image_path = os.path.abspath(os.path.join(os.path.dirname(__file__),"..", "config", "img1.jpg"))
+
+    image_path = os.path.join(os.path.dirname(__file__), "images", "img1.jpg")
     print(f'image path {image_path}')
     assert os.path.exists(image_path)
     add_data.photo =image_path
