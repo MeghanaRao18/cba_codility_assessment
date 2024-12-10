@@ -3,9 +3,9 @@ name: Pet Store API Validation Tests
 on:
   push:
     branches:
-      - main
+      - MeghanaRao-CBATest
   pull_request:
-
+    
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
     - name: Run API tests
       run: |
         pytest --html=report.html --self-contained-html
-        
+
     - name: Upload Test Report
       uses: actions/upload-artifact@v3
       with:
