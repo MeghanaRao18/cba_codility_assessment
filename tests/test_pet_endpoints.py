@@ -342,7 +342,7 @@ def test_upload_pet_image(add_data,config_manager,generate_data):
     url_temp = config_manager.get_basic_url()
     url_temp += config_manager.get_endpoint()
     config_manager.set_post_uploadimage_response_full(url_temp)
-    print (url_temp)
+    print (f'response {config_manager.get_response_full_json()}')
     # add response code
     expected_code = 200
 
