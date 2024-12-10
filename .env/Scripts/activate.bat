@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\mrao\OneDrive - ENDAVA\repos\cba-API-Testing\.env"
+set "VIRTUAL_ENV=C:\Users\mrao\OneDrive - ENDAVA\repos\cba-API-Testing\cba_codility_assessment\.env"
 
 if not defined PROMPT set PROMPT=$P$G
 
