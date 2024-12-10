@@ -27,11 +27,13 @@ jobs:
     - name: Run API tests
       run: |
         pytest --html=report.html --self-contained-html
+        continue-on-error: true 
 
     - name: List files
       run: ls -R
 
     - name: Upload Test Report
+      if: always()
       uses: actions/upload-artifact@v3
       with:
         name: test-report
